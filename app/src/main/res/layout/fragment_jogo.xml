@@ -6,14 +6,18 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".fragment.JogoFragment">
+    tools:context=".fragment.JogoFragment"
+    android:background="@color/black"
+    >
 
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+
+        >
 
 
         <TextView
@@ -26,19 +30,22 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_weight="0"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
 
         <TextView
 
-            android:textColor="@color/white"
             android:id="@+id/placarOne"
-            android:layout_width="20dp"
+            android:layout_width="23dp"
             android:layout_height="match_parent"
-            android:text="@string/placarOne"
             android:background="@color/rosa"
-            android:textSize="20dp"
-            />
-    <View
+            android:text="@string/placarOne"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <View
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -52,20 +59,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
-    <TextView
 
-        android:textColor="@color/white"
-        android:paddingLeft="10dp"
-        android:textSize="20dp"
-        android:id="@+id/textViewDois"
-        android:layout_width="391dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/jogadorDois"
-        android:background="@color/rosa"
-        android:textStyle="bold"
-        android:layout_marginTop="5dp"
-        />
+        <TextView
+
+            android:id="@+id/textViewDois"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="@color/rosa"
+            android:paddingLeft="10dp"
+            android:text="@string/jogadorDois"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:textColor="@color/white"
@@ -75,17 +84,22 @@
             android:textSize="20dp"
             android:text="@string/placarTwo"
             android:background="@color/rosa"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
             />
     </LinearLayout>
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="488dp">
+        android:layout_height="488dp"
+        android:background="@color/black"
+        >
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="150dp">
+            android:layout_height="150dp"
+
+            >
 
             <Button
 
@@ -93,21 +107,33 @@
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
             <Button
                 android:id="@+id/bt01"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
             <Button
                 android:id="@+id/bt02"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
 
         </TableRow>
@@ -122,21 +148,33 @@
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
             <Button
                 android:id="@+id/bt11"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
             <Button
                 android:id="@+id/bt12"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
 
         </TableRow>
@@ -151,21 +189,34 @@
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                />
 
             <Button
                 android:id="@+id/bt21"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
             <Button
                 android:id="@+id/bt22"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
 
 
         </TableRow>

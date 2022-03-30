@@ -6,5 +6,6 @@
     <string name="jogadorDois">Jogador 2 [O]</string>
     <string name="placarOne">0</string>
     <string name="placarTwo">0</string>
-
+    <string name="vencedor">Parabéns Houve um vencedor</string>
+    <string name="velha">Deu Velha</string>
 </resources>
