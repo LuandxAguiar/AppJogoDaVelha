@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-</PreferenceScreen>
+    <androidx.preference.EditTextPreference
+        android:icon="@android:drawable/ic_menu_manage"
+        android:key="simb_jog_1"
+        android:title="@string/simb_jog1"
+        android:summary="@string/summary_jog1" />
+
+    <androidx.preference.EditTextPreference
+        android:icon="@android:drawable/ic_menu_manage"
+        android:key="simb_jog_2"
+        android:title="@string/simb_jog2"
+        android:summary="@string/summary_jog2" />
+
+    <androidx.preference.EditTextPreference
+        android:icon="@android:drawable/ic_menu_manage"
+        android:key="nome_jog_1"
+        android:title="@string/nomeJoga1"
+        android:summary="@string/summary_nam1" />
+    <androidx.preference.EditTextPreference
+        android:icon="@android:drawable/ic_menu_manage"
+        android:key="nome_jog_2"
+        android:title="@string/nomeJoga2"
+        android:summary="@string/summary_nam2" />
+
+
+</androidx.preference.PreferenceScreen>

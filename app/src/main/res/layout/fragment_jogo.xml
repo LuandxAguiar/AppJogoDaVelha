@@ -22,7 +22,7 @@
 
         <TextView
          android:paddingLeft="10dp"
-            android:id="@+id/textView"
+            android:id="@+id/tvJoga1"
             android:layout_width="391dp"
             android:layout_height="wrap_content"
             android:background="@color/rosa"
@@ -62,7 +62,7 @@
 
         <TextView
 
-            android:id="@+id/textViewDois"
+            android:id="@+id/tvJoga2"
             android:layout_width="391dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
@@ -87,17 +87,52 @@
             android:layout_marginTop="2dp"
             android:textAlignment="center"
             />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/velha"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="@color/rosa"
+            android:paddingLeft="10dp"
+            android:text="@string/velha"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/ContVelha"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/placarVelha"
+            android:background="@color/rosa"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            />
+
     </LinearLayout>
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="488dp"
+        android:layout_height="wrap_content"
         android:background="@color/black"
         >
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="wrap_content"
 
             >
 
@@ -140,7 +175,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="213dp">
+            android:layout_height="wrap_content">
 
             <Button
 
@@ -181,7 +216,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="213dp">
+            android:layout_height="wrap_content">
 
             <Button
 

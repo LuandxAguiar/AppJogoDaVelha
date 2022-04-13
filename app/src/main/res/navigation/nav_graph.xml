@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/jogoFragment">
+    app:startDestination="@id/inicioFragment">
 
 
     <fragment
@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/jogoFragment"
         android:name="br.senai.sp.cotia.jogodavelhaapp.fragment.JogoFragment"
-        android:label="fragment_jogo"
+        android:label="Jogo da Velha"
         tools:layout="@layout/fragment_jogo" >
         <action
             android:id="@+id/action_jogoFragment_to_inicioFragment"

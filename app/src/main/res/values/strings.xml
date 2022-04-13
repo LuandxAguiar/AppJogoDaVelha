@@ -2,10 +2,28 @@
     <string name="app_name">Jogo da Velha App</string>
     <string name="action_settings">Settings</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="jogador">Jogador 1 [X]</string>
-    <string name="jogadorDois">Jogador 2 [O]</string>
+    <string name="jogador">%2$s [%1$s]</string>
+    <string name="jogadorDois">%2$s [%1$s]</string>
     <string name="placarOne">0</string>
     <string name="placarTwo">0</string>
+    <string name="placarVelha">0</string>
     <string name="vencedor">Parabéns Houve um vencedor</string>
     <string name="velha">Deu Velha</string>
+    <string name="resetar">Resetar</string>
+    <string name="inicio">Voltar a tela inicial</string>
+    <string name="preferencias">Preferências</string>
+    <string name="simb_jog1">Simbolo do Jogador 1</string>
+    <string name="simb_jog2">Simbolo do Jogador 2</string>
+    <string name="summary_jog1">Escolha o simbolo Jogador 1 </string>
+    <string name="summary_jog2">Escolha o simbolo Jogador 2</string>
+    <string name="bora">Bora Jogar </string>
+    <string name="velhA2">Velha </string>
+    <string name="reset">Houve um vencedor Partida Resetada</string>
+    <string name="fimDegame">Você quer realmente resetar </string>
+
+    <string name="nomeJoga1">Nome do Jogador 1</string>
+    <string name="nomeJoga2">Nome do Jogador 2</string>
+
+    <string name="summary_nam1">Escolha o Nome Jogador 1</string>
+    <string name="summary_nam2">Escolha o Nome do Jogador 2</string>
 </resources>
